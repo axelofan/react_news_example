@@ -1,6 +1,5 @@
 .feed_col {
-    font-family:sans-serif;
-    padding:15px 20px 20px;
+    padding:15px 20px 15px;
     background-color: #fff;
     border-radius: 2px;
     box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
@@ -16,4 +15,30 @@
 }
 img {
     width:100%;
+}
+
+.counters_like img, .comments_amount img {
+    width:18px;
+    opacity: 0.2;
+    transition: opacity .2s;
+}
+
+.counters_like:hover img, .comments_amount:hover img {
+    opacity: 0.6;
+}
+
+.counters_like img.active {
+    opacity: 1;
+}
+
+.counters_like span {
+    vertical-align: text-top;
+    padding: 0 10px 0 2px;
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.post_footer {
+    text-align: right;
+    padding-top:10px;
 }

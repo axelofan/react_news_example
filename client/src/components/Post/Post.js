@@ -1,7 +1,20 @@
 import React, { Component } from 'react';
+import like from './icon-like.png'
+import comment from './icon-comment.png'
 import './Post.css'
 
 class Post extends Component {
+    constructor(props) {
+        super(props);
+        this.likeCount = props.data.likeCount;
+        this.isLiked = props.data.isLiked;
+    }
+
+    setLike = (e) => {
+        const likeCount = (this.isLiked) ? this.likeCount-- : this.likeCount++;
+        this.setState({likeCount: likeCount});
+        this.isLiked = !this.isLiked;
+    }
 
     render() {
         return (
@@ -13,6 +26,15 @@ class Post extends Component {
                     </div>
                     <div className='description'>
                         {this.props.data.description}
+                    </div>
+                    <div className='post_footer'>
+                        <a className='counters_like'>
+                            <img src={like} onClick={this.setLike} alt='Like' className={(this.isLiked)?'active':''}/>
+                            <span>{this.likeCount}</span>
+                        </a>
+                        <a className='comments_amount'>
+                            <img src={comment} alt='Comment'/>
+                        </a>
                     </div>
                 </div>
             </div>
