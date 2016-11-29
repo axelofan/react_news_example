@@ -4,7 +4,7 @@
 ## Как я могу помочь?
 Мы с радостью примем всех желающих развиваться и расти вместе с нами.
 Для этого посетите на канал в [Telegram](https://telegram.me/joinchat/ClRIiQkIdilfiKKedly66g),
-а также посмотрите таски на [Trello]](https://trello.com/b/48t40MQX/skb-opensource), открытые на данный момент.
+а также посмотрите таски на [Trello](https://trello.com/b/48t40MQX/skb-opensource), открытые на данный момент.
 
 ##Директории проекта
 +client
