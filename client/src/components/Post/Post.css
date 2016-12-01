@@ -17,7 +17,7 @@ img {
     width:100%;
 }
 
-.counters_like img, .comments_amount img {
+.counters_icons img {
     width:18px;
     opacity: 0.2;
     transition: opacity .2s;
@@ -32,13 +32,35 @@ img {
 }
 
 .counters_like span {
-    vertical-align: text-top;
+    vertical-align: super;
+}
+
+
+.post_footer span {
     padding: 0 10px 0 2px;
-    font-size: 0.8rem;
     color: #999;
 }
 
 .post_footer {
-    text-align: right;
+    height: 18px;
     padding-top:10px;
+    font-size: .8rem;
+}
+
+.username {
+    float: left;
+    font-weight: 500;
+    text-decoration: none;
+    color: #24aa2f;
+    transition: color .2s
+}
+.username:hover {
+    color: #0c0;
+}
+.pub_date {
+    float:left;
+    margin-left: 5px;
+}
+.counters_icons {
+    float:right;
 }
