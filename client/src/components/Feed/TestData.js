@@ -22,6 +22,7 @@ const news = [
         img_url: 'https://meduza.io/image/attachments/images/000/041/438/small/ZJ9sLP2Jf_vtGI2EsgDl2g.jpg',
         like_count: 35,
         is_like:true,
+        keywords: ["Бугагашка","Ололошка"],
         date_public:1480599044976,
         user: {
             name: "axelofan"
@@ -34,6 +35,7 @@ const news = [
         img_url: 'https://meduza.io/image/attachments/images/000/041/438/small/ZJ9sLP2Jf_vtGI2EsgDl2g.jpg',
         like_count: 48,
         is_like:false,
+        keywords: ["Бугагашка","Ололошка"],
         date_public:1480494325000,
         user: {
             name: "axelofan"
@@ -46,6 +48,7 @@ const news = [
         img_url: 'https://meduza.io/image/attachments/images/000/041/438/small/ZJ9sLP2Jf_vtGI2EsgDl2g.jpg',
         like_count: 12,
         is_like:true,
+        keywords: ["Бугагашка","Ололошка"],
         date_public:1478766325000,
         user: {
             name: "axelofan"
@@ -58,6 +61,7 @@ const news = [
         img_url: 'https://meduza.io/image/attachments/images/000/041/438/small/ZJ9sLP2Jf_vtGI2EsgDl2g.jpg',
         like_count: 4,
         is_like: true,
+        keywords: ["Бугагашка","Ололошка"],
         date_public:1480603164166,
         user: {
             name: "axelofan"
@@ -70,6 +74,7 @@ const news = [
         img_url: 'https://meduza.io/image/attachments/images/000/041/438/small/ZJ9sLP2Jf_vtGI2EsgDl2g.jpg',
         like_count: 0,
         is_like:false,
+        keywords: ["Бугагашка","Ололошка"],
         date_public:1480599044976,
         user: {
             name: "axelofan"

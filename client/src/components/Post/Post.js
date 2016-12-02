@@ -23,6 +23,7 @@ class Post extends Component {
             <div className='feed_col'>
                 <div className='post'>
                     <img src={this.props.data.img_url} alt={this.props.data.title}/>
+                    {this.props.data.keywords.map(el => <a className='tag'>{'#'+el}</a>)}
                     <div className='title'>
                         {this.props.data.title}
                     </div>
