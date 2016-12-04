@@ -1,0 +1,51 @@
+.header {
+    width:100%;
+    height:50px;
+    background-color:#fff;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 8px;
+}
+.logo {
+    height:20px;
+    margin-left:20px;
+    margin-top:15px;    
+    float:left;
+}
+
+.top-nav {
+    float: right;
+}
+
+.login-btn, .reg-btn, .avatar, .username {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.login-btn, .reg-btn {
+    margin-top: 10px;
+    color: #24aa2f;
+}
+
+.login-btn {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #24aa2f;
+    transition: all .3s ease;
+}
+
+.login-btn:hover {
+    background-color: #24aa2f;
+    color:#fff;
+}
+
+.avatar {
+    margin-top: 5px;
+    height:40px;
+    border-radius: 20px;
+}
+.username {
+    margin-right: 10px;
+    color: #24aa2f;
+    vertical-align: top;
+    margin-top: 15px;
+}
