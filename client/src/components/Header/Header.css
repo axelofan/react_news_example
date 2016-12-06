@@ -16,7 +16,7 @@
     float: right;
 }
 
-.login-btn, .reg-btn, .avatar, .username {
+.login-btn, .reg-btn, .avatar,.header .username {
     display: inline-block;
     margin-right: 20px;
 }
@@ -43,7 +43,7 @@
     height:40px;
     border-radius: 20px;
 }
-.username {
+.header .username {
     margin-right: 10px;
     color: #24aa2f;
     vertical-align: top;

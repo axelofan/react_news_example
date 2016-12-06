@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 body {
     background-color: #eee;
     margin: 0;
+    font-family: 'PT Sans', sans-serif;
 }

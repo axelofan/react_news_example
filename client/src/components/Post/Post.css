@@ -52,14 +52,14 @@
     font-size: .8rem;
 }
 
-.username {
+.feed_col .username {
     float: left;
     font-weight: 500;
     text-decoration: none;
     color: #24aa2f;
     transition: color .2s
 }
-.username:hover {
+.feed_col .username:hover {
     color: #0c0;
 }
 .pub_date {
