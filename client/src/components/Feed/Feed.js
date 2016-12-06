@@ -5,14 +5,11 @@ import './Feed.css'
 
 
 class Feed extends Component {
-    constructor() {
-        super();
-        this.news = news;
-    }
+    
     render() {
         return (
             <div className='feed_row'>
-            {this.news.map(el => <Post data={el} key={el._id} />)}
+            {news.map(el => <Post data={el} key={el.key} />)}
             </div>
         )
     }
