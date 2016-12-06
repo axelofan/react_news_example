@@ -12,7 +12,7 @@ class Feed extends Component {
     render() {
         return (
             <div className='feed_row'>
-            {this.news.map(el => <Post data={el} key={el.key} />)}
+            {this.news.map(el => <Post data={el} key={el._id} />)}
             </div>
         )
     }

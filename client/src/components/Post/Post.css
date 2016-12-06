@@ -1,19 +1,71 @@
 .feed_col {
-    font-family:sans-serif;
-    padding:15px 20px 20px;
+    padding:15px 20px 15px;
     background-color: #fff;
     border-radius: 2px;
     box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
     margin-bottom: 10px;
+}
+.tag {
+    font-size: .8rem;
+    margin-right: 5px;
+    color:#999;
 }
 .description {
     font-size:1rem;
     text-align: justify;
 }
 .title {
-    padding: 10px 0;
+    padding: 5px 0;
     font-size:1.2rem;
 }
 img {
     width:100%;
+}
+
+.counters_icons img {
+    width:18px;
+    opacity: 0.2;
+    transition: opacity .2s;
+}
+
+.counters_like:hover img, .comments_amount:hover img {
+    opacity: 0.6;
+}
+
+.counters_like img.active {
+    opacity: 1;
+}
+
+.counters_like span {
+    vertical-align: super;
+}
+
+
+.post_footer span {
+    padding: 0 10px 0 2px;
+    color: #999;
+}
+
+.post_footer {
+    height: 18px;
+    padding-top:10px;
+    font-size: .8rem;
+}
+
+.username {
+    float: left;
+    font-weight: 500;
+    text-decoration: none;
+    color: #24aa2f;
+    transition: color .2s
+}
+.username:hover {
+    color: #0c0;
+}
+.pub_date {
+    float:left;
+    margin-left: 5px;
+}
+.counters_icons {
+    float:right;
 }

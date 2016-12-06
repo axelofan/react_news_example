@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 .feed_row {
     width:600px;
     margin:0 auto;
+    font-family: 'PT Sans', sans-serif;
 } 
